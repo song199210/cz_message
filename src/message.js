@@ -1,5 +1,4 @@
 import "./message.css";
-
 ;(function(){
     let vueMessage={};
     vueMessage.install=function(Vue,options){
