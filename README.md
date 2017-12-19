@@ -1,7 +1,7 @@
 # 自定义Message消息提示框组件
 >这里主要用了vue插件写法来封装Message组件，动画用了简单的setInterVal来控制，感觉有点low，日后会优化；
 >先来张页面效果图:
-<img src="" alt="home123" />
+<img src="https://github.com/song199210/cz_message/blob/master/images/home123.png" alt="home123" />
 ### 引入message.js文件并使用
 >这里我没有发布到npm包管理器中，所以只有message.js和message.css这两个核心文件；
 ```javascript
