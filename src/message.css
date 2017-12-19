@@ -1,0 +1,63 @@
+
+/*Message组件CSS样式*/
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+.df_message {
+    z-index: 999999999;
+    position: fixed;
+    background: #fff;
+    width:300px;
+    height: 40px;
+    line-height: 40px;
+    top:-50px;
+    left: 0px;
+    right: 0px;
+    margin:auto;
+    box-shadow: 0px 2px 4px rgba(0,0,0,.5);
+}
+.df_message>.df_message_content {
+    height: 100%;
+    font-size: 0px;
+    position: relative;
+}
+.df_message>.df_message_content>span {
+    font-size: 16px;
+    display: inline-block;
+    height: 100%;
+    vertical-align: top;
+    line-height: 40px;
+    position: absolute;
+    top:0px;
+}
+.df_message>.df_message_content>span.glyphicon {
+    width:40px;
+    color:#fff;
+    text-align: center;
+}
+.df_message>.df_message_content>span.df_message_title {
+    left:40px;
+    width:260px;
+    padding:0px 8px;
+    text-align: left;
+    border:1px solid #ddd;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    border-left:0px;
+}
+.df_message>.df_message_content>span.success {
+    background: #44c85c;
+    border:1px solid #44c85c;
+}
+.df_message>.df_message_content>span.info {
+    background: #60b7fe;
+    border:1px solid #60b7fe;
+}
+.df_message>.df_message_content>span.warn {
+    background: #eeb42d;
+    border:1px solid #eeb42d;
+}
+.df_message>.df_message_content>span.error {
+    background: #f04646;
+    border:1px solid #f04646;
+}
