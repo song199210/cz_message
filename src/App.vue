@@ -18,7 +18,8 @@
         methods:{
             showMsg(type){
                 if(type == "success"){
-                    this.cz_message.success("测试success",5000);
+                    //success(title,time);title:需要显示的标题,time:需要停留的时间，默认1500
+                    this.cz_message.success("测试success",1000);
                 }else if(type == "info"){
                     this.cz_message.info("测试info");
                 }else if(type == "warn"){
